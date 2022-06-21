@@ -1,0 +1,31 @@
+.header {
+    background-color: #00CCFF;
+    height: 64px;
+}
+
+.header_heading {
+    display: flex;
+    justify-content: left;
+    height: 100%;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    padding: 0 120px 0 38px;
+}
+
+.header__logo_img {
+    margin-right: 8px;
+}
+
+.header__product {
+    line-height: 50px;
+    color: white;
+    font-weight: 300;
+
+}
+
+.active {
+    font-weight: 600;
+}

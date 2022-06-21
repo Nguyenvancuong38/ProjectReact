@@ -1,0 +1,26 @@
+.content {
+    padding: 38px 57px 38px 58px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading .searchfield {
+    border: 1px solid rgb(156, 156, 156);
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+
+.container {
+    width: 981px;
+    height: 743px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.product__list {
+    height: 662px;
+}

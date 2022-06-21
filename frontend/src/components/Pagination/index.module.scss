@@ -1,0 +1,37 @@
+.pagination {
+    text-align: center;
+}
+
+.page_item:hover {
+    color: #00ADE8;
+    border-color: #00ADE8;
+}
+
+.page_item {
+    cursor: pointer;
+    display: inline-block;
+    flex: 0 0;
+    width: 36px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 6px;
+}
+
+.page_item.highlight {
+    background-color: #00ADE8;
+    color: white;
+}
+
+span.page_item {
+    border: solid 1px rgb(161, 161, 161);
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.disable {
+    opacity: 0.2;
+    cursor: default;
+}

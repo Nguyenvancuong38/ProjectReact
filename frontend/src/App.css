@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.border_circle {
+  border-radius: 25px;
+}
+
+.fix_width {
+  width: 116px;
+}
+
+.fix_width_96 {
+  width: 96px;
+}
+
+.fix_width_100 {
+  width: 82px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+.height_input {
+  height: 36px;
+}
+
+.backGroundColor {
+  background-color: rgb(245, 245, 245);
+}
+
+.noPadding_left_right {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1232px) {
+  .fix_width_96 {
+    width: 76px;
+  }
+
+  .fix_width {
+    width: 76px;
+  }
+}
